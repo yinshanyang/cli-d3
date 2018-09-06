@@ -1,0 +1,23 @@
+{
+  "name": "cli-d3",
+  "version": "0.1.0",
+  "description": "",
+  "main": "cli-d3.js",
+  "bin": {
+    "d3": "cli-d3.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.17.1",
+    "d3": "^5.7.0",
+    "d3-node": "^2.0.1",
+    "node-csv": "github:yinshanyang/node-csv",
+    "node-json": "github:yinshanyang/node-json",
+    "svg2png": "^4.1.1"
+  }
+}
